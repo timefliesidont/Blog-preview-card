@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution {position: fixed;top:90%;left:50%;margin-left:-131px; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    /* position: relative; */
+}
+p{
+    padding:0;
+    margin:0;
+    font-size:16px;
+}
+*{
+    /* border: 1px solid red; */
+    font-family: 'Figtree';
+}
+
+.container{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left:-160px;
+    margin-top:-219px;
+    border:1px solid;
+    box-shadow: 8px 8px rgb(0,0,0);
+    padding:20px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 320px;
+    transition: margin .15s, box-shadow .15s;
+}
+.container:hover{
+    margin-top: -223px;
+    margin-left:-164px;
+    box-shadow: 12px 12px rgb(0,0,0);
+}
+
+.image-block img {
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.button{
+    width:fit-content;
+    border-radius:4px;
+    padding:5px 10px;
+    margin:16px 0;
+    background-color:  hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    font-size:14px;
+    font-weight: 800;
+}
+.date-text{
+    font-weight: 600;
+    font-size:14px;
+    margin-bottom:16px;
+}
+.Heading{
+    font-size:24px;
+    font-weight:800;
+    margin-bottom:16px;
+    transition:color .15s;
+}
+.Heading:hover{
+    color:hsl(47, 88%, 63%);
+    cursor:pointer;
+}
+
+.body-text{
+    color: hsl(0, 0%, 50%);
+    margin-bottom:16px;
+}
+.user-area{
+    display: flex;
+}
+.user-icon{
+    height:32px;
+    width:32px;
+}
+.user-icon img{
+    width:100%;
+    object-fit: contain;
+}
+.user-name{
+    align-self: center;
+    font-size:14px;
+    font-weight:800;
+    margin-left:12px;
+}
