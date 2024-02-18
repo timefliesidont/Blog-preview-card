@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-.attribution {position: fixed;top:90%;left:50%;margin-left:-131px; font-size: 11px; text-align: center; }
+.attribution {position: fixed;top:90%;left:50%;margin-left:-131px; margin-top:50px;font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -23,8 +23,8 @@ p{
     position: fixed;
     top:50%;
     left:50%;
-    margin-left:-160px;
-    margin-top:-219px;
+    margin-left:-180px;
+    margin-top:-239px;
     border:1px solid;
     box-shadow: 8px 8px rgb(0,0,0);
     padding:20px;
@@ -34,8 +34,8 @@ p{
     transition: margin .15s, box-shadow .15s;
 }
 .container:hover{
-    margin-top: -223px;
-    margin-left:-164px;
+    margin-top: -243px;
+    margin-left:-184px;
     box-shadow: 12px 12px rgb(0,0,0);
 }
 
